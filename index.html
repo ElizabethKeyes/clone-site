@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  
+  
+  <title>Document</title>
+
+  <style>
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+  
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+  
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+
+</head>
+<body class = "debug">
+
+  <!-- ANCHOR Header -->
+  <!-- #region -->
+  <header class = "container-fluid bg-light pb-2">
+    <nav class="row align-items-center">
+      <div class="col-3 mdi mdi-alpha-m-circle d-flex justify-content-end align-items-center display-3"></div>
+      <div class="col-1"></div>
+      <div class="col-6 d-flex justify-content-between">
+          <h6>Work</h6>
+          <h6>About</h6>
+          <h6>Expertise</h6>
+          <h6>Blog</h6>
+          <h6>Store</h6>
+          <h6>Contact</h6>
+      </div>
+    </nav>
+  </header>
+  <!-- #endregion -->
+
+  <!-- ANCHOR First Section -->
+  <!-- #region -->
+
+  <section class="row hero-img pb-2">
+    <div class="col-6 p-5 d-flex flex-column align-items-center justify-content-center">
+      <h1>This Thing</h1>
+      <h6>It's much better than other things.</h6>
+    </div>
+    <div class="col-6"></div>
+  </section>
+
+  <!-- #endregion -->
+
+  <!-- ANCHOR Second Section -->
+  <!-- #region -->
+
+  <section class="row bg-dark text-light justify-content-center">
+    <div class="col-6 py-5">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aliquid voluptatibus excepturi aspernatur esse iusto quia repudiandae natus saepe! Accusantium beatae dignissimos cumque aperiam sed omnis repellat explicabo perspiciatis officiis?<button class="mx-5">Learn more</button>
+    </div>
+  </section>
+
+  <!-- #endregion -->
+
+<!-- ANCHOR Third Section -->
+<!-- #region -->
+
+<section class="row justify-content-center p-5">
+  <div class="col-3">
+    <div class="d-flex justify-content-center question-mark-img text-light align-items-center h5">
+    BLOG
+    </div>
+    Read our blog, or don't.
+  </div>
+
+  <div class="col-3">
+    <div class="office-img d-flex text-light justify-content-center align-items-center h5">
+      OFFICE
+    </div>
+    You can knock but we probably won't let you in.
+  </div>
+
+  <div class="col-3">
+    <div class="expert-img d-flex text-light justify-content-center align-items-center h5">
+      EXPERTISE
+    </div>
+    You could say we're experts. Nobody would, but they could.
+  </div>
+</section>
+
+<!-- #endregion -->
+
+<!-- ANCHOR Footer -->
+<!-- #region-->
+
+<section class="row footer bg-dark text-light footer-vh text-align-center">
+  <div class="col-2"></div>
+  <div class="col-3 d-flex justify-content-evenly">
+    <button class="button bg-dark text-light">Jobs</button>
+    <button class="button bg-dark text-light">Store</button>
+    <button class="button bg-dark text-light">Twitter</button>
+    <button class="button bg-dark text-light">Facebook</button>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-1 d-flex justify-content-center align-items-center">
+    867-5309 <br> hello@bootstrap.com
+  </div>
+  <div class="col-1"></div>
+  <div class="col-2 d-flex justify-content-center align-items-center">
+    1234 Example St <br> Boise, ID
+  </div>
+</section>
+
+<!-- #endregion -->
+
+</body>
+</html>
